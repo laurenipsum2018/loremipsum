@@ -71,6 +71,13 @@
       background-color: #FFF1D0;
       top: 40px;
       right: 2px; }
+    .witch .body .head .face-container .mouth {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      background-color: #121212;
+      top: 44px;
+      left: 14px; }
     .witch .body .head .neck {
       position: relative;
       width: 60px;
@@ -85,10 +92,10 @@
     position: relative;
     z-index: 8;
     top: 130px;
-    left: 10px; }
+    left: 0px; }
     .witch .body .dress-container .dress {
       position: relative;
-      width: 100px;
+      width: 200px;
       height: 100px;
       background-color: #401E81; }
 

@@ -102,6 +102,15 @@
           top: 40px;
           right: 2px;
         }
+
+        .mouth {
+          position: relative;
+          width: 10px;
+          height: 10px;
+          background-color: $black;
+          top: 44px;
+          left: 14px;
+        }
       } // end face container
 
       .neck {
@@ -121,11 +130,11 @@
       position: relative;
       z-index: 8;
       top: 130px;
-      left: 10px;
+      left: 0px;
 
       .dress {
         position: relative;
-        width: 100px;
+        width: 200px;
         height: 100px;
         background-color: $purple-dark;
       }
