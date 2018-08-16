@@ -128,7 +128,7 @@
       .neck {
         position: relative;
         width: 60px;
-        height: 40px;
+        height: 44px;
         background-color: $skin;
         border-radius: 20% 20%;
         transform: rotate(60deg);
@@ -141,14 +141,14 @@
     .arm-front-container {
       position: absolute;
       top: 130px;
-      left: 40%;
+      left: 30%;
       z-index: 10;
 
       .arm-front-top {
         position: relative;
         width: 40px;
-        height: 150px;
-        border-radius: 50% 40%;
+        height: 170px;
+        border-radius: 50% 50%;
         transform: rotate(45deg);
         background-color: $skin;
       }
@@ -157,13 +157,14 @@
     .dress-container {
       position: relative;
       z-index: 8;
-      top: 120px;
+      top: 154px;
       left: 10px;
 
       .dress {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 240px;
+        height: 150px;
+        border-radius: 30% 0 0 30%;
         transform: rotate(60deg);
         background-color: $purple-dark;
       }
