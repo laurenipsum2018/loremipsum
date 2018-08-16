@@ -402,7 +402,7 @@
     .legs {
       position: absolute;
       left: 280px;
-      bottom: 94px;
+      bottom: 104px;
 
       .leg-front {
         position: relative;
@@ -417,11 +417,11 @@
       .leg-back {
         position: relative;
         width: 150px;
-        height: 34px;
+        height: 40px;
         border-radius: 0 90% 15% 0;
-        transform: rotate(-10deg);
+        transform: rotate(20deg);
         background-color: $skin-shadow;
-        bottom: 74px;
+        bottom: 24px;
       }
 
     } // end leg back container
