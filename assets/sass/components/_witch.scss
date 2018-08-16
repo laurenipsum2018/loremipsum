@@ -1,0 +1,15 @@
+.witch {
+  display: block;
+  position: absolute;
+  margin: 5% 0 0 45%;
+
+  .body {
+    background-color: $purple-dark;
+
+    .face {
+      width: 100px;
+      height: 100px;
+    }
+
+  } // end body
+} // end witch

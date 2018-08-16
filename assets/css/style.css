@@ -1,5 +1,12 @@
-h1 {
-  color: #0C8DFF; }
+.witch {
+  display: block;
+  position: absolute;
+  margin: 5% 0 0 45%; }
+  .witch .body {
+    background-color: #401E81; }
+    .witch .body .face {
+      width: 100px;
+      height: 100px; }
 
 body {
   background-color: #FFC6C0; }
