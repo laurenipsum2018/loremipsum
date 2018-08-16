@@ -131,19 +131,30 @@
       }
     } //end head
 
-    .dress-sleeve-front-container {
+    .dress-sleeves {
       position: absolute;
-      z-index: 15;
-      top: 136px;
-      left: 56px;
 
-      .dress-sleeve-front {
+      .sleeve-front {
+        position: relative;
+        width: 90px;
+        height: 70px;
+        border-radius: 34% 10% 10% 70%;
+        transform: rotate(110deg);
+        background-color: $purple-mid;
+        top: 136px;
+        left: 60px;
+        z-index: 15;
+      }
+
+      .sleeve-back {
         position: relative;
         width: 90px;
         height: 70px;
         border-radius: 30% 10% 10% 60%;
-        transform: rotate(110deg);
-        background-color: $purple-mid;
+        transform: rotate(124deg);
+        background-color: $purple-vdk;
+        top: 80px;
+        z-index: 8;
       }
     }
 
@@ -188,7 +199,17 @@
         transform: rotate(35deg);
         background-color: $skin-mid;
       }
-    }
+      .arm-back-btm {
+        position: relative;
+        width: 40px;
+        height: 170px;
+        border-radius: 50% 50%;
+        transform: rotate(70deg);
+        background-color: $skin-mid;
+        bottom: 100px;
+        right: 94px;
+      }
+    } // end arm back container
 
     .dress-container {
       position: relative;
@@ -199,20 +220,58 @@
       .dress-top {
         position: relative;
         width: 230px;
-        height: 150px;
+        height: 146px;
         border-radius: 30% 0 0 30%;
         transform: rotate(60deg);
         background-color: $purple-dark;
       }
 
+      .dress-mid {
+        position: relative;
+        width: 180px;
+        height: 140px;
+        border-radius: 30% 10% 40% 0;
+        transform: rotate(-20deg);
+        background-color: $purple-dark;
+        bottom: 20px;
+        left: 70px;
+      }
+
       .dress-bottom {
         position: relative;
-        width: 200px;
-        height: 100px;
+        width: 150px;
+        height: 200px;
+        transform: rotate(-20deg);
         background-color: $purple-dark;
-        left: 80px;
+        bottom: 100px;
+        left: 30px;
+      }
+
+      .dress-legs {
+        position: relative;
+        width: 240px;
+        height: 100px;
+        transform: rotate(-10deg);
+        background-color: $purple-dark;
+        bottom: 200px;
+        left: 50px;
       }
     } // end dress container
+
+    .leg-back-container {
+      position: absolute;
+      left: 280px;
+      bottom: 100px;
+
+      .leg-back {
+        position: relative;
+        width: 100px;
+        height: 40px;
+        transform: rotate(-10deg);
+        background-color: $skin;
+      }
+    } // end leg back container
+
 
   } // end body
 } // end witch

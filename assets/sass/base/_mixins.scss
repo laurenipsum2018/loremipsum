@@ -1,6 +1,0 @@
-@mixin transform($blink) {
-  0%{transform: scaleY(0.2);}
-  3%{transform: scaleY(1);}
-  6%{transform: scaleY(0.1);}
-  10%{transform: scaleY(1);}
-}
