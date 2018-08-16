@@ -330,18 +330,31 @@
       }
     } // end dress container
 
-    .leg-back-container {
+    .legs {
       position: absolute;
       left: 280px;
-      bottom: 130px;
+      bottom: 94px;
+
+      .leg-front {
+        position: relative;
+        width: 150px;
+        height: 44px;
+        border-radius: 0 90% 15% 0;
+        transform: rotate(-10deg);
+        background-color: $skin;
+        z-index: 5;
+      }
 
       .leg-back {
         position: relative;
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 34px;
+        border-radius: 0 90% 15% 0;
         transform: rotate(-10deg);
-        background-color: $skin;
+        background-color: $skin-shadow;
+        bottom: 74px;
       }
+
     } // end leg back container
 
 
