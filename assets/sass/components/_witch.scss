@@ -230,7 +230,7 @@
         position: relative;
         width: 180px;
         height: 140px;
-        border-radius: 30% 10% 40% 0;
+        border-radius: 30% 24% 40% 0;
         transform: rotate(-20deg);
         background-color: $purple-dark;
         bottom: 20px;
@@ -241,19 +241,21 @@
         position: relative;
         width: 150px;
         height: 200px;
+        border-radius: 30% 0 0 30%;
         transform: rotate(-20deg);
         background-color: $purple-dark;
-        bottom: 100px;
+        bottom: 150px;
         left: 30px;
       }
 
       .dress-legs {
         position: relative;
         width: 240px;
-        height: 100px;
-        transform: rotate(-10deg);
+        height: 120px;
+        border-radius: 0 0 0 80%;
+        transform: rotate(-8deg);
         background-color: $purple-dark;
-        bottom: 200px;
+        bottom: 236px;
         left: 50px;
       }
     } // end dress container
@@ -261,7 +263,7 @@
     .leg-back-container {
       position: absolute;
       left: 280px;
-      bottom: 100px;
+      bottom: 130px;
 
       .leg-back {
         position: relative;
