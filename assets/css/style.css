@@ -4,8 +4,10 @@
   margin: 10% 0 0 45%; }
   .witch .body .hat-container {
     position: absolute;
-    left: -14px;
-    top: 2px; }
+    left: -8px;
+    top: -20px;
+    transform: rotate(-10deg);
+    z-index: 100; }
     .witch .body .hat-container .hat-circle {
       position: relative;
       width: 120px;
@@ -39,11 +41,11 @@
     z-index: 10; }
     .witch .body .hair-ft-container .hair-front {
       position: relative;
-      width: 44px;
+      width: 48px;
       height: 40px;
       background-color: #645A4C;
-      right: 6px;
-      border-radius: 90% 85% 0 0; }
+      border-radius: 90% 85% 0 0;
+      right: 6px; }
   .witch .body .hair-bk-container {
     position: absolute; }
     .witch .body .hair-bk-container .hair-back {
