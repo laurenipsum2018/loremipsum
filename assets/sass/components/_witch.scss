@@ -52,17 +52,17 @@
 
       .hair-back {
         position: relative;
-        width: 100px;
-        height: 140px;
+        width: 0px;
+        height: 0px;
         border-top: 60px solid transparent;
-        border-bottom: 60px solid transparent;
-        border-left: 180px solid $brown;
+        border-bottom: 80px solid $brown;
+        border-left: 100px solid $brown;
       }
     } // end hair
 
     .head {
-      z-index: 8;
       position: absolute;
+      z-index: 8;
 
       .face-container {
 
@@ -141,7 +141,7 @@
     .arm-front-container {
       position: absolute;
       top: 130px;
-      left: 30%;
+      left: 34%;
       z-index: 10;
 
       .arm-front-top {
@@ -149,10 +149,26 @@
         width: 40px;
         height: 170px;
         border-radius: 50% 50%;
-        transform: rotate(45deg);
+        transform: rotate(20deg);
         background-color: $skin;
       }
     } // end arm front container
+
+    .arm-back-container {
+      position: absolute;
+      top: 130px;
+      left: 0%;
+      z-index: 1;
+
+      .arm-back-top{
+        position: relative;
+        width: 40px;
+        height: 170px;
+        border-radius: 50% 50%;
+        transform: rotate(35deg);
+        background-color: $skin;
+      }
+    }
 
     .dress-container {
       position: relative;

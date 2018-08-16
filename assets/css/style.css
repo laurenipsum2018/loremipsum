@@ -39,14 +39,14 @@
     left: 60px; }
     .witch .body .hair-container .hair-back {
       position: relative;
-      width: 100px;
-      height: 140px;
+      width: 0px;
+      height: 0px;
       border-top: 60px solid transparent;
-      border-bottom: 60px solid transparent;
-      border-left: 180px solid #645A4C; }
+      border-bottom: 80px solid #645A4C;
+      border-left: 100px solid #645A4C; }
   .witch .body .head {
-    z-index: 8;
-    position: absolute; }
+    position: absolute;
+    z-index: 8; }
     .witch .body .head .face-container .eye {
       position: relative;
       width: 14px;
@@ -101,14 +101,26 @@
   .witch .body .arm-front-container {
     position: absolute;
     top: 130px;
-    left: 30%;
+    left: 34%;
     z-index: 10; }
     .witch .body .arm-front-container .arm-front-top {
       position: relative;
       width: 40px;
       height: 170px;
       border-radius: 50% 50%;
-      transform: rotate(45deg);
+      transform: rotate(20deg);
+      background-color: #FFF1D0; }
+  .witch .body .arm-back-container {
+    position: absolute;
+    top: 130px;
+    left: 0%;
+    z-index: 1; }
+    .witch .body .arm-back-container .arm-back-top {
+      position: relative;
+      width: 40px;
+      height: 170px;
+      border-radius: 50% 50%;
+      transform: rotate(35deg);
       background-color: #FFF1D0; }
   .witch .body .dress-container {
     position: relative;
