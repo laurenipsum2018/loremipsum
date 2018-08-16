@@ -34,16 +34,26 @@
       z-index: 10;
       bottom: 150px;
       left: 56px; }
-  .witch .body .hair-container {
+  .witch .body .hair-ft-container {
     position: absolute;
-    left: 60px; }
-    .witch .body .hair-container .hair-back {
+    z-index: 10; }
+    .witch .body .hair-ft-container .hair-front {
+      position: relative;
+      width: 44px;
+      height: 40px;
+      background-color: #645A4C;
+      right: 6px;
+      border-radius: 90% 85% 0 0; }
+  .witch .body .hair-bk-container {
+    position: absolute; }
+    .witch .body .hair-bk-container .hair-back {
       position: relative;
       width: 0px;
       height: 0px;
       border-top: 150px solid transparent;
       border-bottom: 90px solid #645A4C;
-      border-left: 120px solid #645A4C; }
+      border-left: 120px solid #645A4C;
+      left: 60px; }
   .witch .body .head {
     position: absolute;
     z-index: 8; }
@@ -68,7 +78,7 @@
       position: relative;
       width: 20px;
       height: 20px;
-      transform: rotate(45deg);
+      transform: rotate(30deg);
       background-color: #FFF1D0;
       top: 40px;
       right: 2px; }

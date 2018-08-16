@@ -46,9 +46,22 @@
 
     } // end hat container
 
-    .hair-container {
+    .hair-ft-container {
       position: absolute;
-      left: 60px;
+      z-index: 10;
+
+      .hair-front {
+        position: relative;
+        width: 44px;
+        height: 40px;
+        background-color: $brown;
+        right: 6px;
+        border-radius: 90% 85% 0 0;
+      }
+    }
+
+    .hair-bk-container {
+      position: absolute;
 
       .hair-back {
         position: relative;
@@ -57,8 +70,9 @@
         border-top: 150px solid transparent;
         border-bottom: 90px solid $brown;
         border-left: 120px solid $brown;
+        left: 60px;
       }
-    } // end hair
+    } // end hair bk
 
     .head {
       position: absolute;
@@ -91,7 +105,7 @@
           position: relative;
           width: 20px;
           height: 20px;
-          transform: rotate(45deg);
+          transform: rotate(30deg);
           background-color: $skin;
           top: 40px;
           right: 2px;
