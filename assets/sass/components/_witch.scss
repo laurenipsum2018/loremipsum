@@ -105,11 +105,22 @@
 
         .mouth {
           position: relative;
-          width: 10px;
-          height: 10px;
+          width: 20px;
+          height: 12px;
+          border-radius: 15px 15px 70px 70px;
           background-color: $black;
-          top: 44px;
-          left: 14px;
+          top: 50px;
+          left: 12px;
+
+          .tongue {
+            position: relative;
+            width: 14px;
+            height: 6px;
+            border-radius: 15px 15px 70px 70px;
+            background-color: $red;
+            top: 6px;
+            left: 3px;
+          }
         }
       } // end face container
 
@@ -129,13 +140,14 @@
     .dress-container {
       position: relative;
       z-index: 8;
-      top: 130px;
-      left: 0px;
+      top: 120px;
+      left: 10px;
 
       .dress {
         position: relative;
         width: 200px;
-        height: 100px;
+        height: 200px;
+        transform: rotate(60deg);
         background-color: $purple-dark;
       }
     } // end dress container
