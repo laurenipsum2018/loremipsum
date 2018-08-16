@@ -4,12 +4,22 @@
   margin: 5% 0 0 45%;
 
   .body {
-    background-color: $purple-dark;
+
+    .hat {
+      width: 100px;
+      height: 100px;
+      background-color: $purple-dark;
+      transform: rotate(45deg);
+      z-index: 2;
+    } // end hat
 
     .face {
       width: 100px;
       height: 100px;
-    }
+      background-color: $skin;
+      border-radius: 100%;
+      z-index: 1;
+    } // end face
 
   } // end body
 } // end witch

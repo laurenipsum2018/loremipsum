@@ -2,11 +2,18 @@
   display: block;
   position: absolute;
   margin: 5% 0 0 45%; }
-  .witch .body {
-    background-color: #401E81; }
-    .witch .body .face {
-      width: 100px;
-      height: 100px; }
+  .witch .body .hat {
+    width: 100px;
+    height: 100px;
+    background-color: #401E81;
+    transform: rotate(45deg);
+    z-index: 2; }
+  .witch .body .face {
+    width: 100px;
+    height: 100px;
+    background-color: #FFF1D0;
+    border-radius: 100%;
+    z-index: 1; }
 
 body {
   background-color: #FFC6C0; }
