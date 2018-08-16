@@ -209,21 +209,29 @@
       border-radius: 50% 50%;
       transform: rotate(35deg);
       background-color: #F9E8C0; }
+    .witch .body .arm-back-container .arm-back-join {
+      position: relative;
+      width: 24px;
+      height: 24px;
+      border-radius: 70% 20% 50% 20%;
+      background-color: #F9E8C0;
+      bottom: 35px;
+      right: 36px; }
     .witch .body .arm-back-container .arm-back-btm {
       position: relative;
       width: 30px;
       height: 170px;
-      border-radius: 50% 50%;
-      transform: rotate(40deg);
+      border-radius: 70% 50%;
+      transform: rotate(32deg);
       background-color: #F9E8C0;
-      bottom: 60px;
+      bottom: 70px;
       right: 80px; }
     .witch .body .arm-back-container .hand-back {
       position: relative;
       width: 30px;
       height: 40px;
       border-radius: 100% 50% 50% 10%;
-      transform: rotate(24deg);
+      transform: rotate(27deg);
       background-color: #F9E8C0;
       bottom: 100px;
       right: 130px; }
