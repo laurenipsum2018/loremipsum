@@ -91,6 +91,7 @@
           background-color: $skin;
           border-radius: 100%;
           z-index: 3;
+          box-shadow: inset -10px -1px $skin-shadow;
         }
 
         .nose {
