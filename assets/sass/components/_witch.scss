@@ -1,23 +1,53 @@
 .witch {
   display: block;
   position: absolute;
-  margin: 5% 0 0 45%;
+  margin: 15% 0 0 45%;
 
   .body {
 
-    .hat {
-      position: relative;
-      width: 150px;
-      height: 40px;
-      background-color: $purple-dark;
-      transform: rotate(45deg);
-      border-radius: 100%;
-      top: 58px;
-      right: 10px;
-      z-index: 10;
-    } // end hat
 
-    .hair {
+    .hat-container {
+      position: relative;
+      bottom: 20px;
+      right: 8px;
+
+      .hat-circle {
+        position: relative;
+        width: 120px;
+        height: 24px;
+        background-color: $grey-dark;
+        transform: rotate(45deg);
+        border-radius: 100%;
+        z-index: 100;
+        left: 20px;
+        top: 24px;
+      }
+
+      .hat-front {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        background-color: $grey-light;
+        transform: rotate(45deg);
+        border-radius: 100%;
+        z-index: 11;
+      }
+
+      .hat-triangle {
+        position: relative;
+        height: 0px;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid transparent;
+        border-left: 180px solid $grey-dark;
+        transform: rotate(-45deg);
+        z-index: 10;
+        bottom: 150px;
+        left: 56px;
+      }
+
+    } // end hat container
+
+    .hair-container {
       background-color: $brown;
 
       .hair-back {
@@ -31,7 +61,7 @@
     .head {
       z-index: 8;
       position: relative;
-      bottom: 140px;
+      bottom: 346px;
 
       .face-container {
 
@@ -44,6 +74,13 @@
           top: 44px;
           left: 14px;
           z-index: 4;
+
+          @mixin animation ($blink) {
+            // -o-animation-name: $blink;
+            // -moz-animation-name: $blink;
+            // -webkit-animation-name: $blink;
+            // animation-name: $blink;
+          }
         }
 
         .face {
@@ -78,6 +115,20 @@
         bottom: 30px;
       }
     } //end head
+
+    .dress-container {
+      position: relative;
+      z-index: 8;
+      bottom: 170px;
+      left: 10px;
+
+      .dress {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: $purple-dark;
+      }
+    } // end dress container
 
   } // end body
 } // end witch

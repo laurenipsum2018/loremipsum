@@ -1,27 +1,49 @@
 .witch {
   display: block;
   position: absolute;
-  margin: 5% 0 0 45%; }
-  .witch .body .hat {
+  margin: 15% 0 0 45%; }
+  .witch .body .hat-container {
     position: relative;
-    width: 150px;
-    height: 40px;
-    background-color: #401E81;
-    transform: rotate(45deg);
-    border-radius: 100%;
-    top: 58px;
-    right: 10px;
-    z-index: 10; }
-  .witch .body .hair {
+    bottom: 20px;
+    right: 8px; }
+    .witch .body .hat-container .hat-circle {
+      position: relative;
+      width: 120px;
+      height: 24px;
+      background-color: #2F2E2E;
+      transform: rotate(45deg);
+      border-radius: 100%;
+      z-index: 100;
+      left: 20px;
+      top: 24px; }
+    .witch .body .hat-container .hat-front {
+      position: relative;
+      width: 150px;
+      height: 40px;
+      background-color: #3F3E3E;
+      transform: rotate(45deg);
+      border-radius: 100%;
+      z-index: 11; }
+    .witch .body .hat-container .hat-triangle {
+      position: relative;
+      height: 0px;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-left: 180px solid #2F2E2E;
+      transform: rotate(-45deg);
+      z-index: 10;
+      bottom: 150px;
+      left: 56px; }
+  .witch .body .hair-container {
     background-color: #645A4C; }
-    .witch .body .hair .hair-back {
+    .witch .body .hair-container .hair-back {
       position: relative;
       width: 100px;
       height: 140px; }
   .witch .body .head {
     z-index: 8;
     position: relative;
-    bottom: 140px; }
+    bottom: 346px; }
     .witch .body .head .face-container .eye {
       position: relative;
       width: 14px;
@@ -56,6 +78,16 @@
       margin-left: 30%;
       z-index: 1;
       bottom: 30px; }
+  .witch .body .dress-container {
+    position: relative;
+    z-index: 8;
+    bottom: 170px;
+    left: 10px; }
+    .witch .body .dress-container .dress {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: #401E81; }
 
 body {
   background-color: #FFC6C0; }
