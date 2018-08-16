@@ -131,6 +131,22 @@
       }
     } //end head
 
+    .dress-sleeve-front-container {
+      position: absolute;
+      z-index: 15;
+      top: 136px;
+      left: 56px;
+
+      .dress-sleeve-front {
+        position: relative;
+        width: 90px;
+        height: 70px;
+        border-radius: 30% 10% 10% 60%;
+        transform: rotate(110deg);
+        background-color: $purple-mid;
+      }
+    }
+
     .arm-front-container {
       position: absolute;
       top: 130px;
@@ -148,13 +164,13 @@
 
       .arm-front-btm {
         position: relative;
-        width: 30px;
+        width: 34px;
         height: 150px;
         border-radius: 80% 50%;
         transform: rotate(60deg);
         background-color: $skin;
         bottom: 70px;
-        right: 74px;
+        right: 80px;
       }
     } // end arm front container
 

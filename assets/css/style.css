@@ -98,6 +98,18 @@
       margin-left: 40%;
       z-index: 1;
       bottom: 30px; }
+  .witch .body .dress-sleeve-front-container {
+    position: absolute;
+    z-index: 15;
+    top: 136px;
+    left: 56px; }
+    .witch .body .dress-sleeve-front-container .dress-sleeve-front {
+      position: relative;
+      width: 90px;
+      height: 70px;
+      border-radius: 30% 10% 10% 60%;
+      transform: rotate(110deg);
+      background-color: #5C2FB4; }
   .witch .body .arm-front-container {
     position: absolute;
     top: 130px;
@@ -112,13 +124,13 @@
       background-color: #FFF1D0; }
     .witch .body .arm-front-container .arm-front-btm {
       position: relative;
-      width: 30px;
+      width: 34px;
       height: 150px;
       border-radius: 80% 50%;
       transform: rotate(60deg);
       background-color: #FFF1D0;
       bottom: 70px;
-      right: 74px; }
+      right: 80px; }
   .witch .body .arm-back-container {
     position: absolute;
     top: 130px;
