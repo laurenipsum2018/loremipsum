@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,EAAG;EACD,KAAK,ECDA,OAAO",
-"sources": ["../sass/components/_typography.scss","../sass/base/_variables.scss"],
+"mappings": "AAAA,EAAG;EACD,KAAK,ECGA,OAAO;;ACId,IAAK;EACH,gBAAgB,EDRT,OAAO",
+"sources": ["../sass/components/_typography.scss","../sass/base/_variables.scss","../sass/main.scss"],
 "names": [],
 "file": "style.css"
 }
