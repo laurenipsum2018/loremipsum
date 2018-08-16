@@ -87,7 +87,7 @@
         border-radius: 15px 15px 70px 70px;
         background-color: #F38A8A;
         top: 6px;
-        left: 3px; }
+        left: 2px; }
     .witch .body .head .neck {
       position: relative;
       width: 60px;
@@ -105,11 +105,20 @@
     z-index: 10; }
     .witch .body .arm-front-container .arm-front-top {
       position: relative;
-      width: 46px;
+      width: 40px;
       height: 170px;
       border-radius: 50% 50%;
       transform: rotate(25deg);
       background-color: #FFF1D0; }
+    .witch .body .arm-front-container .arm-front-btm {
+      position: relative;
+      width: 30px;
+      height: 150px;
+      border-radius: 80% 50%;
+      transform: rotate(60deg);
+      background-color: #FFF1D0;
+      bottom: 70px;
+      right: 74px; }
   .witch .body .arm-back-container {
     position: absolute;
     top: 130px;
@@ -121,7 +130,7 @@
       height: 170px;
       border-radius: 50% 50%;
       transform: rotate(35deg);
-      background-color: #FFF1D0; }
+      background-color: #F9E8C0; }
   .witch .body .dress-container {
     position: relative;
     z-index: 8;

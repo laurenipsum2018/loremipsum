@@ -75,13 +75,6 @@
           top: 44px;
           left: 14px;
           z-index: 4;
-
-          @mixin animation ($blink) {
-            // -o-animation-name: $blink;
-            // -moz-animation-name: $blink;
-            // -webkit-animation-name: $blink;
-            // animation-name: $blink;
-          }
         }
 
         .face {
@@ -120,7 +113,7 @@
             border-radius: 15px 15px 70px 70px;
             background-color: $red;
             top: 6px;
-            left: 3px;
+            left: 2px;
           }
         }
       } // end face container
@@ -146,11 +139,22 @@
 
       .arm-front-top {
         position: relative;
-        width: 46px;
+        width: 40px;
         height: 170px;
         border-radius: 50% 50%;
         transform: rotate(25deg);
         background-color: $skin;
+      }
+
+      .arm-front-btm {
+        position: relative;
+        width: 30px;
+        height: 150px;
+        border-radius: 80% 50%;
+        transform: rotate(60deg);
+        background-color: $skin;
+        bottom: 70px;
+        right: 74px;
       }
     } // end arm front container
 
@@ -166,7 +170,7 @@
         height: 170px;
         border-radius: 50% 50%;
         transform: rotate(35deg);
-        background-color: $skin;
+        background-color: $skin-mid;
       }
     }
 
