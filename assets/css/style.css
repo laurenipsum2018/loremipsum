@@ -5,11 +5,12 @@
   .witch .body .hat {
     position: relative;
     width: 150px;
-    height: 120px;
+    height: 40px;
     background-color: #401E81;
     transform: rotate(45deg);
-    top: 60px;
-    left: 24px;
+    border-radius: 100%;
+    top: 58px;
+    right: 10px;
     z-index: 10; }
   .witch .body .hair {
     background-color: #645A4C; }
@@ -25,7 +26,7 @@
       position: relative;
       width: 14px;
       height: 14px;
-      background-color: #000000;
+      background-color: #121212;
       border-radius: 100%;
       top: 44px;
       left: 14px;

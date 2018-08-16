@@ -8,11 +8,12 @@
     .hat {
       position: relative;
       width: 150px;
-      height: 120px;
+      height: 40px;
       background-color: $purple-dark;
       transform: rotate(45deg);
-      top: 60px;
-      left: 24px;
+      border-radius: 100%;
+      top: 58px;
+      right: 10px;
       z-index: 10;
     } // end hat
 
@@ -63,7 +64,7 @@
           top: 40px;
           right: 2px;
         }
-      } // end face
+      } // end face container
 
       .neck {
         position: relative;
