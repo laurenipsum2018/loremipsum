@@ -98,6 +98,18 @@
       margin-left: 40%;
       z-index: 1;
       bottom: 30px; }
+  .witch .body .arm-front-container {
+    position: absolute;
+    top: 130px;
+    left: 40%;
+    z-index: 10; }
+    .witch .body .arm-front-container .arm-front-top {
+      position: relative;
+      width: 40px;
+      height: 150px;
+      border-radius: 50% 40%;
+      transform: rotate(45deg);
+      background-color: #FFF1D0; }
   .witch .body .dress-container {
     position: relative;
     z-index: 8;

@@ -138,6 +138,22 @@
       }
     } //end head
 
+    .arm-front-container {
+      position: absolute;
+      top: 130px;
+      left: 40%;
+      z-index: 10;
+
+      .arm-front-top {
+        position: relative;
+        width: 40px;
+        height: 150px;
+        border-radius: 50% 40%;
+        transform: rotate(45deg);
+        background-color: $skin;
+      }
+    } // end arm front container
+
     .dress-container {
       position: relative;
       z-index: 8;
