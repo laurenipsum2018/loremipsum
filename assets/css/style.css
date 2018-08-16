@@ -3,17 +3,58 @@
   position: absolute;
   margin: 5% 0 0 45%; }
   .witch .body .hat {
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 150px;
+    height: 120px;
     background-color: #401E81;
     transform: rotate(45deg);
-    z-index: 2; }
-  .witch .body .face {
-    width: 100px;
-    height: 100px;
-    background-color: #FFF1D0;
-    border-radius: 100%;
-    z-index: 1; }
+    top: 60px;
+    left: 24px;
+    z-index: 10; }
+  .witch .body .hair {
+    background-color: #645A4C; }
+    .witch .body .hair .hair-back {
+      position: relative;
+      width: 100px;
+      height: 140px; }
+  .witch .body .head {
+    z-index: 8;
+    position: relative;
+    bottom: 140px; }
+    .witch .body .head .face-container .eye {
+      position: relative;
+      width: 14px;
+      height: 14px;
+      background-color: #000000;
+      border-radius: 100%;
+      top: 44px;
+      left: 14px;
+      z-index: 4; }
+    .witch .body .head .face-container .face {
+      position: relative;
+      width: 84px;
+      height: 100px;
+      background-color: #FFF1D0;
+      border-radius: 100%;
+      z-index: 3; }
+    .witch .body .head .face-container .nose {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      transform: rotate(45deg);
+      background-color: #FFF1D0;
+      top: 40px;
+      right: 2px; }
+    .witch .body .head .neck {
+      position: relative;
+      width: 60px;
+      height: 40px;
+      background-color: #FFF1D0;
+      border-radius: 20% 20%;
+      transform: rotate(60deg);
+      margin-left: 30%;
+      z-index: 1;
+      bottom: 30px; }
 
 body {
   background-color: #FFC6C0; }

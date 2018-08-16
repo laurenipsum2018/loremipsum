@@ -6,20 +6,77 @@
   .body {
 
     .hat {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      width: 150px;
+      height: 120px;
       background-color: $purple-dark;
       transform: rotate(45deg);
-      z-index: 2;
+      top: 60px;
+      left: 24px;
+      z-index: 10;
     } // end hat
 
-    .face {
-      width: 100px;
-      height: 100px;
-      background-color: $skin;
-      border-radius: 100%;
-      z-index: 1;
-    } // end face
+    .hair {
+      background-color: $brown;
+
+      .hair-back {
+        position: relative;
+        width: 100px;
+        height: 140px;
+      }
+
+    } // end hair
+
+    .head {
+      z-index: 8;
+      position: relative;
+      bottom: 140px;
+
+      .face-container {
+
+        .eye {
+          position: relative;
+          width: 14px;
+          height: 14px;
+          background-color: $black;
+          border-radius: 100%;
+          top: 44px;
+          left: 14px;
+          z-index: 4;
+        }
+
+        .face {
+          position: relative;
+          width: 84px;
+          height: 100px;
+          background-color: $skin;
+          border-radius: 100%;
+          z-index: 3;
+        }
+
+        .nose {
+          position: relative;
+          width: 20px;
+          height: 20px;
+          transform: rotate(45deg);
+          background-color: $skin;
+          top: 40px;
+          right: 2px;
+        }
+      } // end face
+
+      .neck {
+        position: relative;
+        width: 60px;
+        height: 40px;
+        background-color: $skin;
+        border-radius: 20% 20%;
+        transform: rotate(60deg);
+        margin-left: 30%;
+        z-index: 1;
+        bottom: 30px;
+      }
+    } //end head
 
   } // end body
 } // end witch
