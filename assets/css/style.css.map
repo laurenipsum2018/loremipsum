@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACD,KAAK,ECDA,OAAO",
+"sources": ["../sass/components/_typography.scss","../sass/base/_variables.scss"],
+"names": [],
+"file": "style.css"
+}
