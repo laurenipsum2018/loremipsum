@@ -282,11 +282,23 @@
         position: relative;
         width: 30px;
         height: 40px;
-        border-radius: 100% 50%;
+        border-radius: 100% 50% 50% 10%;
         transform: rotate(24deg);
         background-color: $skin-mid;
         bottom: 100px;
         right: 130px;
+      }
+
+      .bk-thumb {
+        position: absolute;
+        width: 10px;
+        height: 30px;
+        border-radius: 50% 50%;
+        transform: rotate(70deg);
+        background-color: $skin-mid;
+        z-index: 100;
+        bottom: 110px;
+        right: 170px;
       }
 
       .bk-fin {
@@ -294,21 +306,21 @@
         width: 6px;
         height: 30px;
         border-radius: 50% 50%;
-        transform: rotate(34deg);
+        transform: rotate(46deg);
         background-color: $skin-mid;
         z-index: 100;
-        bottom: 92px;
-        right: 174px;
+        bottom: 90px;
+        right: 173px;
 
         .bk-fin-2 {
           position: relative;
           width: 6px;
           height: 30px;
           border-radius: 50% 50%;
-          transform: rotate(-10deg);
+          transform: rotate(-12deg);
           background-color: $skin-mid;
           z-index: 100;
-          left: 9px;
+          left: 10px;
           top: 6px;
         }
         .bk-fin-3 {
@@ -316,11 +328,11 @@
           width: 6px;
           height: 30px;
           border-radius: 50% 50%;
-          transform: rotate(-14deg);
+          transform: rotate(-17deg);
           background-color: $skin-mid;
           z-index: 100;
-          bottom: 26px;
-          left: 17px;
+          bottom: 28px;
+          left: 19px;
         }
         .bk-fin-4 {
           position: relative;
@@ -330,8 +342,8 @@
           transform: rotate(-30deg);
           background-color: $skin-mid;
           z-index: 100;
-          bottom: 64px;
-          left: 24px;
+          bottom: 68px;
+          left: 26px;
         }
       }// end fingers back
     } // end arm back container
