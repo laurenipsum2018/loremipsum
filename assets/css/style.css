@@ -116,7 +116,7 @@
       height: 70px;
       border-radius: 30% 10% 10% 60%;
       transform: rotate(124deg);
-      background-color: #2A125A;
+      background-color: #331768;
       top: 80px;
       z-index: 8; }
   .witch .body .arm-front-container {
@@ -131,15 +131,51 @@
       border-radius: 50% 50%;
       transform: rotate(25deg);
       background-color: #FFF1D0; }
+    .witch .body .arm-front-container .arm-front-join {
+      position: relative;
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      background-color: #FFF1D0;
+      bottom: 33px;
+      right: 20px; }
     .witch .body .arm-front-container .arm-front-btm {
       position: relative;
       width: 34px;
-      height: 150px;
+      height: 160px;
       border-radius: 80% 50%;
-      transform: rotate(60deg);
+      transform: rotate(24deg);
       background-color: #FFF1D0;
-      bottom: 70px;
-      right: 80px; }
+      bottom: 64px;
+      right: 54px; }
+    .witch .body .arm-front-container .hand-front {
+      position: relative;
+      width: 30px;
+      height: 40px;
+      border-radius: 100%;
+      transform: rotate(30deg);
+      background-color: #FFF1D0;
+      bottom: 90px;
+      right: 90px; }
+    .witch .body .arm-front-container .ft-fin {
+      position: absolute;
+      width: 6px;
+      height: 30px;
+      border-radius: 50% 50%;
+      transform: rotate(30deg);
+      background-color: #FFF1D0;
+      z-index: 100;
+      bottom: 86px;
+      right: 132px; }
+      .witch .body .arm-front-container .ft-fin .ft-fin-2 {
+        position: relative;
+        width: 6px;
+        height: 30px;
+        border-radius: 50% 50%;
+        background-color: #FFF1D0;
+        z-index: 100;
+        left: 10px;
+        top: 6px; }
   .witch .body .arm-back-container {
     position: absolute;
     top: 130px;
@@ -172,16 +208,18 @@
       height: 146px;
       border-radius: 30% 0 0 30%;
       transform: rotate(60deg);
-      background-color: #401E81; }
+      background-color: #401E81;
+      box-shadow: inset -1px -20px #2A125A; }
     .witch .body .dress-container .dress-mid {
       position: relative;
       width: 180px;
       height: 140px;
-      border-radius: 30% 24% 40% 0;
-      transform: rotate(-20deg);
+      border-radius: 30% 12% 40% 0;
+      transform: rotate(-29deg);
       background-color: #401E81;
+      box-shadow: inset -1px -20px #2A125A;
       bottom: 20px;
-      left: 70px; }
+      left: 76px; }
     .witch .body .dress-container .dress-bottom {
       position: relative;
       width: 150px;
@@ -195,7 +233,7 @@
       position: relative;
       width: 240px;
       height: 120px;
-      border-radius: 0 0 0 80%;
+      border-radius: 0 5% 10% 80%;
       transform: rotate(-8deg);
       background-color: #401E81;
       bottom: 236px;

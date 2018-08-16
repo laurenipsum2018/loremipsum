@@ -152,7 +152,7 @@
         height: 70px;
         border-radius: 30% 10% 10% 60%;
         transform: rotate(124deg);
-        background-color: $purple-vdk;
+        background-color: $purple-extdk;
         top: 80px;
         z-index: 8;
       }
@@ -173,16 +173,63 @@
         background-color: $skin;
       }
 
+      .arm-front-join {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background-color: $skin;
+        bottom: 33px;
+        right: 20px;
+      }
+
       .arm-front-btm {
         position: relative;
         width: 34px;
-        height: 150px;
+        height: 160px;
         border-radius: 80% 50%;
-        transform: rotate(60deg);
+        transform: rotate(24deg);
         background-color: $skin;
-        bottom: 70px;
-        right: 80px;
+        bottom: 64px;
+        right: 54px;
       }
+
+      .hand-front {
+        position: relative;
+        width: 30px;
+        height: 40px;
+        border-radius: 100%;
+        transform: rotate(30deg);
+        background-color: $skin;
+        bottom: 90px;
+        right: 90px;
+      }
+
+      .ft-fin {
+        position: absolute;
+        width: 6px;
+        height: 30px;
+        border-radius: 50% 50%;
+        transform: rotate(30deg);
+        background-color: $skin;
+        z-index: 100;
+        bottom: 86px;
+        right: 132px;
+
+        .ft-fin-2 {
+          position: relative;
+          width: 6px;
+          height: 30px;
+          border-radius: 50% 50%;
+          background-color: $skin;
+          z-index: 100;
+          left: 10px;
+          top: 6px;
+        }
+      }
+
+      // end fingers
+
     } // end arm front container
 
     .arm-back-container {
@@ -224,17 +271,19 @@
         border-radius: 30% 0 0 30%;
         transform: rotate(60deg);
         background-color: $purple-dark;
+        box-shadow: inset -1px -20px $purple-vdk;
       }
 
       .dress-mid {
         position: relative;
         width: 180px;
         height: 140px;
-        border-radius: 30% 24% 40% 0;
-        transform: rotate(-20deg);
+        border-radius: 30% 12% 40% 0;
+        transform: rotate(-29deg);
         background-color: $purple-dark;
+        box-shadow: inset -1px -20px $purple-vdk;
         bottom: 20px;
-        left: 70px;
+        left: 76px;
       }
 
       .dress-bottom {
@@ -252,7 +301,7 @@
         position: relative;
         width: 240px;
         height: 120px;
-        border-radius: 0 0 0 80%;
+        border-radius: 0 5% 10% 80%;
         transform: rotate(-8deg);
         background-color: $purple-dark;
         bottom: 236px;
