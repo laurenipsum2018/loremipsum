@@ -60,7 +60,17 @@
         border-radius: 90% 85% 0 0;
         right: 6px;
       }
-    }
+
+      .hair-ft-lng {
+        position: relative;
+        width: 30px;
+        height: 100px;
+        background-color: $brown;
+        transform: rotate(-4deg);
+        border-radius: 0 95% 100% 30%;
+        left: 60px;
+      }
+    } // end hair front
 
     .hair-bk-container {
       position: absolute;
@@ -74,6 +84,17 @@
         border-left: 120px solid $brown;
         left: 60px;
       }
+
+      .hair-bk-fc {
+        position: relative;
+        width: 100px;
+        height: 120px;
+        background-color: $brown;
+        transform: rotate(10deg);
+        border-radius: 0 80% 100% 70%;
+        bottom: 200px;
+      }
+
     } // end hair bk
 
     .head {
