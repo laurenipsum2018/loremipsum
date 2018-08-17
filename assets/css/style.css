@@ -71,7 +71,8 @@
       background-color: #645A4C;
       transform: rotate(10deg);
       border-radius: 0 80% 100% 70%;
-      bottom: 200px; }
+      bottom: 200px;
+      left: 2px; }
   .witch .body .head {
     position: absolute;
     z-index: 8; }
@@ -412,17 +413,29 @@
       transform: rotate(2deg);
       border-radius: 10% 30% 30% 10%;
       bottom: 184px;
-      left: -300px; }
-    .witch .body .broom-container .broom-brush {
+      left: -300px;
+      box-shadow: inset 0px -8px #462D13; }
+    .witch .body .broom-container .broom-brush-ct .broom-brush {
       display: inline-block;
       position: relative;
-      width: 180px;
+      width: 150px;
       height: 120px;
       background-color: #E0BB73;
       bottom: 240px;
       left: 500px;
       transform: rotate(2deg);
-      border-radius: 100% 20% 20% 100%; }
+      border-radius: 100% 14% 14% 100%; }
+    .witch .body .broom-container .broom-brush-ct .broom-brush-bk {
+      display: inline-block;
+      position: relative;
+      width: 0px;
+      height: 0px;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-left: 100px solid #E0BB73;
+      bottom: 234px;
+      left: 490px;
+      transform: rotate(2deg); }
 
 body {
   background-color: #FFC6C0; }
