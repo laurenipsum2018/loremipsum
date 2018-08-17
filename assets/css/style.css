@@ -364,7 +364,7 @@
     z-index: 110; }
     .witch .body .shoes .shoe-top {
       position: relative;
-      width: 80px;
+      width: 90px;
       height: 50px;
       background-color: #2F2E2E;
       border-radius: 0 50% 10% 0;
@@ -376,11 +376,11 @@
       width: 0px;
       height: 0px;
       border-radius: 0 0 90% 0;
-      border-top: 130px solid #2F2E2E;
-      border-bottom: 50px solid transparent;
-      border-left: 64px solid transparent;
-      bottom: 224px;
-      left: 366px;
+      border-top: 134px solid #2F2E2E;
+      border-bottom: 70px solid transparent;
+      border-left: 70px solid transparent;
+      bottom: 247px;
+      left: 390px;
       transform: rotate(-8deg); }
   .witch .body .legs {
     position: absolute;
@@ -416,9 +416,19 @@
       bottom: 184px;
       left: -300px;
       box-shadow: inset 0px -8px #462D13; }
-    .witch .body .broom-container .broom-brush-ct {
+    .witch .body .broom-container .broom-fire {
+      position: absolute;
+      width: 150px;
+      height: 8px;
+      background-color: #121212;
+      z-index: 100;
+      bottom: 300px;
+      left: 530px;
+      border-radius: 50% 50%;
+      transform: rotate(2deg); }
+    .witch .body .broom-container .broom-brush-base {
       display: absolute; }
-      .witch .body .broom-container .broom-brush-ct .broom-brush {
+      .witch .body .broom-container .broom-brush-base .broom-brush {
         display: inline-block;
         position: relative;
         width: 200px;
@@ -428,7 +438,7 @@
         left: 500px;
         transform: rotate(2deg);
         border-radius: 100%; }
-      .witch .body .broom-container .broom-brush-ct .broom-brush-bk {
+      .witch .body .broom-container .broom-brush-base .broom-brush-bk {
         display: inline-block;
         position: relative;
         width: 0px;

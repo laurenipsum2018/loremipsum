@@ -457,7 +457,7 @@
 
       .shoe-top {
         position: relative;
-        width: 80px;
+        width: 90px;
         height: 50px;
         background-color: $grey-dark;
         border-radius: 0 50% 10% 0;
@@ -471,11 +471,11 @@
         width: 0px;
         height: 0px;
         border-radius: 0 0 90% 0;
-        border-top: 130px solid $grey-dark;
-        border-bottom: 50px solid transparent;
-        border-left: 64px solid transparent;
-        bottom: 224px;
-        left: 366px;
+        border-top: 134px solid $grey-dark;
+        border-bottom: 70px solid transparent;
+        border-left: 70px solid transparent;
+        bottom: 247px;
+        left: 390px;
         transform: rotate(-8deg);
       }
 
@@ -526,7 +526,19 @@
         box-shadow: inset 0px -8px $brown-dk;
       }
 
-      .broom-brush-ct {
+      .broom-fire {
+        position: absolute;
+        width: 150px;
+        height: 8px;
+        background-color: $black;
+        z-index: 100;
+        bottom: 300px;
+        left: 530px;
+        border-radius: 50% 50%;
+        transform: rotate(2deg);
+      }
+
+      .broom-brush-base {
         display: absolute;
 
         .broom-brush {
