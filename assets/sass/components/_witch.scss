@@ -1,7 +1,7 @@
 .witch {
   display: block;
   position: absolute;
-  margin: 12% 0 0 40%;
+  margin: 14% 0 0 40%;
 
   .body {
 
@@ -182,6 +182,7 @@
         top: 136px;
         left: 60px;
         z-index: 15;
+        box-shadow: inset 0px 8px $purple-vdk;
       }
 
       .sleeve-back {
