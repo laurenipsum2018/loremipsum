@@ -210,6 +210,7 @@
         border-radius: 50% 50%;
         transform: rotate(25deg);
         background-color: $skin;
+        box-shadow: inset -6px 0px $skin-shadow;
       }
 
       .arm-front-join {
@@ -220,6 +221,7 @@
         background-color: $skin;
         bottom: 33px;
         right: 20px;
+        box-shadow: inset 0px 10px $skin-shadow;
       }
 
       .arm-front-btm {
