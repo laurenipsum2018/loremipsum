@@ -1,3 +1,12 @@
+@keyframes blink {
+  0% {
+    transform: scaleY(0.2); }
+  3% {
+    transform: scaleY(1); }
+  6% {
+    transform: scaleY(0.1); }
+  10% {
+    transform: scaleY(1); } }
 .witch {
   display: inline-block;
   position: absolute;
@@ -86,7 +95,8 @@
       border-radius: 100%;
       top: 44px;
       left: 14px;
-      z-index: 4; }
+      z-index: 4;
+      animation: blink 3s infinite; }
     .witch .body .head .face-container .face {
       position: relative;
       width: 84px;
