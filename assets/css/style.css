@@ -358,22 +358,32 @@
   .witch .body .shoes {
     position: absolute;
     z-index: 110; }
-    .witch .body .shoes .shoe-lhs {
+    .witch .body .shoes .shoe-top {
       position: relative;
-      width: 100px;
+      width: 80px;
       height: 50px;
       background-color: #2F2E2E;
-      border-radius: 0 80% 10% 0;
+      border-radius: 0 50% 10% 0;
       transform: rotate(-7deg);
-      left: 380px;
-      bottom: 197px; }
+      left: 340px;
+      bottom: 192px; }
+    .witch .body .shoes .shoe-top-ft {
+      position: relative;
+      width: 0px;
+      height: 0px;
+      border-top: 100px solid #2F2E2E;
+      border-bottom: 50px solid transparent;
+      border-left: 64px solid transparent;
+      bottom: 224px;
+      left: 365px;
+      transform: rotate(-8deg); }
   .witch .body .legs {
     position: absolute;
     left: 280px;
     bottom: 104px; }
     .witch .body .legs .leg-front {
       position: relative;
-      width: 150px;
+      width: 130px;
       height: 44px;
       border-radius: 0 90% 15% 0;
       transform: rotate(-10deg);
@@ -381,12 +391,24 @@
       z-index: 5; }
     .witch .body .legs .leg-back {
       position: relative;
-      width: 150px;
+      width: 130px;
       height: 40px;
       border-radius: 0 90% 15% 0;
-      transform: rotate(20deg);
+      transform: rotate(-20deg);
       background-color: #F2E0B5;
-      bottom: 24px; }
+      bottom: 70px; }
+  .witch .body .broom-container {
+    position: absolute;
+    bottom: 150px;
+    left: -300px;
+    z-index: 1; }
+    .witch .body .broom-container .broom-handle {
+      position: relative;
+      width: 850px;
+      height: 30px;
+      background-color: #62431D;
+      transform: rotate(2deg);
+      border-radius: 10% 30% 30% 10%; }
 
 body {
   background-color: #FFC6C0; }
