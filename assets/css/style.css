@@ -382,6 +382,29 @@
       bottom: 247px;
       left: 390px;
       transform: rotate(-8deg); }
+  .witch .body .shoes-bk {
+    position: absolute;
+    z-index: 0; }
+    .witch .body .shoes-bk .shoe-bk {
+      position: relative;
+      width: 90px;
+      height: 50px;
+      background-color: #121212;
+      border-radius: 0 50% 10% 0;
+      transform: rotate(-16deg);
+      left: 342px;
+      bottom: 232px; }
+    .witch .body .shoes-bk .shoe-bk-ft {
+      position: relative;
+      width: 0px;
+      height: 0px;
+      border-radius: 0 0 90% 0;
+      border-top: 134px solid #121212;
+      border-bottom: 70px solid transparent;
+      border-left: 70px solid transparent;
+      bottom: 291px;
+      left: 392px;
+      transform: rotate(-18deg); }
   .witch .body .legs {
     position: absolute;
     left: 280px;
