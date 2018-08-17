@@ -375,11 +375,12 @@
       position: relative;
       width: 0px;
       height: 0px;
-      border-top: 100px solid #2F2E2E;
+      border-radius: 0 0 90% 0;
+      border-top: 130px solid #2F2E2E;
       border-bottom: 50px solid transparent;
       border-left: 64px solid transparent;
       bottom: 224px;
-      left: 365px;
+      left: 366px;
       transform: rotate(-8deg); }
   .witch .body .legs {
     position: absolute;

@@ -470,11 +470,12 @@
         position: relative;
         width: 0px;
         height: 0px;
-        border-top: 100px solid $grey-dark;
+        border-radius: 0 0 90% 0;
+        border-top: 130px solid $grey-dark;
         border-bottom: 50px solid transparent;
         border-left: 64px solid transparent;
         bottom: 224px;
-        left: 365px;
+        left: 366px;
         transform: rotate(-8deg);
       }
 
