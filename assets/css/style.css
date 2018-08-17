@@ -1,7 +1,7 @@
 .witch {
   display: block;
   position: absolute;
-  margin: 10% 0 0 45%; }
+  margin: 12% 0 0 40%; }
   .witch .body .hat-container {
     position: absolute;
     left: -8px;
@@ -399,16 +399,27 @@
       bottom: 70px; }
   .witch .body .broom-container {
     position: absolute;
-    bottom: 150px;
-    left: -300px;
     z-index: 1; }
     .witch .body .broom-container .broom-handle {
+      display: inline-block;
       position: relative;
       width: 850px;
       height: 30px;
       background-color: #62431D;
       transform: rotate(2deg);
-      border-radius: 10% 30% 30% 10%; }
+      border-radius: 10% 30% 30% 10%;
+      bottom: 184px;
+      left: -300px; }
+    .witch .body .broom-container .broom-brush {
+      display: inline-block;
+      position: relative;
+      width: 180px;
+      height: 120px;
+      background-color: #E0BB73;
+      bottom: 240px;
+      left: 500px;
+      transform: rotate(2deg);
+      border-radius: 100% 20% 20% 100%; }
 
 body {
   background-color: #FFC6C0; }

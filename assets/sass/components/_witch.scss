@@ -1,7 +1,7 @@
 .witch {
   display: block;
   position: absolute;
-  margin: 10% 0 0 45%;
+  margin: 12% 0 0 40%;
 
   .body {
 
@@ -507,21 +507,30 @@
 
     .broom-container {
       position: absolute;
-      bottom: 150px;
-      left: -300px;
       z-index: 1;
 
       .broom-handle {
+        display: inline-block;
         position: relative;
         width: 850px;
         height: 30px;
         background-color: $brown-broom;
         transform: rotate(2deg);
         border-radius: 10% 30% 30% 10%;
+        bottom: 184px;
+        left: -300px;
       }
 
       .broom-brush {
-
+        display: inline-block;
+        position: relative;
+        width: 180px;
+        height: 120px;
+        background-color: $yellow;
+        bottom: 240px;
+        left: 500px;
+        transform: rotate(2deg);
+        border-radius: 100% 20% 20% 100%;
       }
     } // end broom container
 
