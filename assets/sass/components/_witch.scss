@@ -528,14 +528,26 @@
 
       .broom-fire {
         position: absolute;
-        width: 150px;
+        width: 130px;
         height: 8px;
-        background-color: $black;
+        background-color: $brown-highlight;
         z-index: 100;
-        bottom: 300px;
+        bottom: 294px;
         left: 530px;
         border-radius: 50% 50%;
-        transform: rotate(2deg);
+        transform: rotate(4deg);
+      }
+
+      .broom-fire-2{
+        position: absolute;
+        width: 80px;
+        height: 8px;
+        background-color: $brown-highlight;
+        z-index: 100;
+        bottom: 276px;
+        left: 530px;
+        border-radius: 50% 50%;
+        transform: rotate(10deg);
       }
 
       .broom-brush-base {

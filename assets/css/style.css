@@ -418,14 +418,24 @@
       box-shadow: inset 0px -8px #462D13; }
     .witch .body .broom-container .broom-fire {
       position: absolute;
-      width: 150px;
+      width: 130px;
       height: 8px;
-      background-color: #121212;
+      background-color: #A77E4D;
       z-index: 100;
-      bottom: 300px;
+      bottom: 294px;
       left: 530px;
       border-radius: 50% 50%;
-      transform: rotate(2deg); }
+      transform: rotate(4deg); }
+    .witch .body .broom-container .broom-fire-2 {
+      position: absolute;
+      width: 80px;
+      height: 8px;
+      background-color: #A77E4D;
+      z-index: 100;
+      bottom: 276px;
+      left: 530px;
+      border-radius: 50% 50%;
+      transform: rotate(10deg); }
     .witch .body .broom-container .broom-brush-base {
       display: absolute; }
       .witch .body .broom-container .broom-brush-base .broom-brush {
