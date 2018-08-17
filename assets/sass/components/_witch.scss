@@ -138,19 +138,20 @@
           position: relative;
           width: 20px;
           height: 12px;
-          border-radius: 15px 15px 70px 70px;
+          border-radius: 10px 15px 70px 70px;
           background-color: $black;
           top: 50px;
-          left: 12px;
+          left: 5px;
+          transform: rotate(-10deg);
 
           .tongue {
             position: relative;
-            width: 14px;
-            height: 6px;
-            border-radius: 15px 15px 70px 70px;
+            width: 12px;
+            height: 7px;
+            border-radius: 30px 15px 90px 70px;
             background-color: $red;
-            top: 6px;
-            left: 2px;
+            top: 5px;
+            left: 4px;
           }
         }
       } // end face container
