@@ -7,6 +7,13 @@
     transform: scaleY(0.1); }
   10% {
     transform: scaleY(1); } }
+@keyframes shake {
+  0% {
+    transform: rotate(2deg); }
+  50% {
+    transform: rotate(-2deg); }
+  100% {
+    transform: rotate(2deg); } }
 .witch {
   display: inline-block;
   position: absolute;
@@ -627,6 +634,7 @@ body {
   background-color: #FFC6C0; }
 
 #container-center {
-  margin: 15% 0 0 0; }
+  margin: 15% 0 0 0;
+  animation: shake 2s ease infinite; }
 
 /*# sourceMappingURL=style.css.map */
