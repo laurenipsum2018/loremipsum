@@ -415,27 +415,29 @@
       bottom: 184px;
       left: -300px;
       box-shadow: inset 0px -8px #462D13; }
-    .witch .body .broom-container .broom-brush-ct .broom-brush {
-      display: inline-block;
-      position: relative;
-      width: 150px;
-      height: 120px;
-      background-color: #E0BB73;
-      bottom: 240px;
-      left: 500px;
-      transform: rotate(2deg);
-      border-radius: 100% 14% 14% 100%; }
-    .witch .body .broom-container .broom-brush-ct .broom-brush-bk {
-      display: inline-block;
-      position: relative;
-      width: 0px;
-      height: 0px;
-      border-top: 60px solid transparent;
-      border-bottom: 60px solid transparent;
-      border-left: 100px solid #E0BB73;
-      bottom: 234px;
-      left: 490px;
-      transform: rotate(2deg); }
+    .witch .body .broom-container .broom-brush-ct {
+      display: absolute; }
+      .witch .body .broom-container .broom-brush-ct .broom-brush {
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 120px;
+        background-color: #E0BB73;
+        bottom: 240px;
+        left: 500px;
+        transform: rotate(2deg);
+        border-radius: 100%; }
+      .witch .body .broom-container .broom-brush-ct .broom-brush-bk {
+        display: inline-block;
+        position: relative;
+        width: 0px;
+        height: 0px;
+        border-top: 52px solid transparent;
+        border-bottom: 52px solid transparent;
+        border-left: 100px solid #E0BB73;
+        bottom: 244px;
+        left: 448px;
+        transform: rotate(2deg); }
 
 body {
   background-color: #FFC6C0; }

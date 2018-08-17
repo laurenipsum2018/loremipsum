@@ -95,7 +95,6 @@
         bottom: 200px;
         left: 2px;
       }
-
     } // end hair bk
 
     .head {
@@ -527,27 +526,29 @@
       }
 
       .broom-brush-ct {
+        display: absolute;
+
         .broom-brush {
           display: inline-block;
           position: relative;
-          width: 150px;
+          width: 200px;
           height: 120px;
           background-color: $yellow;
           bottom: 240px;
           left: 500px;
           transform: rotate(2deg);
-          border-radius: 100% 14% 14% 100%;
+          border-radius: 100%;
         }
         .broom-brush-bk {
           display: inline-block;
           position: relative;
           width: 0px;
           height: 0px;
-          border-top: 60px solid transparent;
-          border-bottom: 60px solid transparent;
+          border-top: 52px solid transparent;
+          border-bottom: 52px solid transparent;
           border-left: 100px solid $yellow;
-          bottom: 234px;
-          left: 490px;
+          bottom: 244px;
+          left: 448px;
           transform: rotate(2deg);
         }
       } // end broom brush
