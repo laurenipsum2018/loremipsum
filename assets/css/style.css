@@ -4,7 +4,7 @@
 .cat-container {
   display: inline-block;
   position: relative;
-  z-index: 300;
+  z-index: 0;
   margin: 274px 0 0 400px; }
   .cat-container .cat-head {
     position: relative;
@@ -14,6 +14,14 @@
     background-color: #2F2E2E;
     left: 6px;
     top: 6px; }
+    .cat-container .cat-head .cat-nose {
+      position: relative;
+      border-top: 6px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 10px solid #F38A8A;
+      left: 23px;
+      bottom: 13px;
+      transform: rotate(-30deg); }
     .cat-container .cat-head .cat-ear-lhs {
       display: inline-block;
       position: absolute;
@@ -66,7 +74,7 @@
         background-color: #121212;
         margin-left: auto;
         margin-right: auto;
-        top: 5px; }
+        top: 7px; }
     .cat-container .cat-head .cat-face .cat-eye-rhs {
       position: relative;
       width: 14px;
@@ -82,13 +90,32 @@
         background-color: #121212;
         margin-left: auto;
         margin-right: auto;
-        top: 5px; }
+        top: 7px; }
+  .cat-container .cat-arm-lhs {
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: #4D4D4D;
+    border-radius: 50% 50% 0 0;
+    left: 12px;
+    bottom: 10px;
+    z-index: 100; }
+  .cat-container .cat-arm-rhs {
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: #4D4D4D;
+    border-radius: 50% 50% 0 0;
+    left: 52px;
+    bottom: 10px;
+    z-index: 100; }
   .cat-container .cat-body {
     position: relative;
     width: 70px;
-    height: 80px;
-    border-radius: 50% 50%;
-    background-color: #2F2E2E; }
+    height: 90px;
+    border-radius: 50% 50% 20% 20%;
+    background-color: #2F2E2E;
+    z-index: 9; }
 
 .witch {
   display: inline-block;
