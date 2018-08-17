@@ -1,0 +1,82 @@
+.broom-container {
+  position: absolute;
+  z-index: 1;
+
+  .broom-handle {
+    display: inline-block;
+    position: relative;
+    width: 850px;
+    height: 30px;
+    background-color: $brown-broom;
+    transform: rotate(2deg);
+    border-radius: 10% 30% 30% 10%;
+    bottom: 184px;
+    left: -300px;
+    box-shadow: inset 0px -8px $brown-dk;
+  }
+
+  .broom-fire {
+    position: absolute;
+    width: 140px;
+    height: 8px;
+    background-color: $brown-highlight;
+    z-index: 100;
+    bottom: 300px;
+    left: 530px;
+    border-radius: 50% 50%;
+    transform: rotate(4deg);
+  }
+
+  .broom-fire-2{
+    position: absolute;
+    width: 90px;
+    height: 8px;
+    background-color: $brown-highlight;
+    z-index: 100;
+    bottom: 276px;
+    left: 530px;
+    border-radius: 50% 50%;
+    transform: rotate(8deg);
+  }
+
+  .broom-fire-3 {
+    position: absolute;
+    width: 90px;
+    height: 8px;
+    background-color: $brown-highlight;
+    z-index: 100;
+    bottom: 330px;
+    left: 530px;
+    border-radius: 50% 50%;
+    transform: rotate(-8deg);
+  }
+
+  .broom-brush-base {
+    display: absolute;
+
+    .broom-brush {
+      display: inline-block;
+      position: relative;
+      width: 200px;
+      height: 120px;
+      background-color: $yellow;
+      bottom: 240px;
+      left: 500px;
+      transform: rotate(2deg);
+      border-radius: 100%;
+    }
+    .broom-brush-bk {
+      display: inline-block;
+      position: relative;
+      width: 0px;
+      height: 0px;
+      border-top: 52px solid transparent;
+      border-bottom: 52px solid transparent;
+      border-left: 100px solid $yellow;
+      bottom: 244px;
+      left: 448px;
+      transform: rotate(2deg);
+    }
+  } // end broom brush
+
+} // end broom container

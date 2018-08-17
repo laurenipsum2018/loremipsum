@@ -5,8 +5,14 @@
 // Components
 @import "components/typography";
 @import "components/witch";
+@import "components/cat";
+@import "components/broom";
 
 
 body {
   background-color: $bgpink;
+}
+
+#container-center {
+  margin: 15% 0 0 0;
 }
