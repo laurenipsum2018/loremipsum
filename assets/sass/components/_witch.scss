@@ -448,6 +448,24 @@
       }
     } // end dress container
 
+    .shoes {
+      position: absolute;
+      z-index: 110;
+
+      .shoe-lhs {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        background-color: $grey-dark;
+        border-radius: 0 80% 10% 0;
+        transform: rotate(-7deg);
+        left: 380px;
+        bottom: 197px;
+      }
+
+    } // end shoes
+
+
     .legs {
       position: absolute;
       left: 280px;
