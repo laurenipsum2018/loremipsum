@@ -14,14 +14,33 @@
     background-color: #2F2E2E;
     left: 6px;
     top: 6px; }
+    .cat-container .cat-head .cat-mouth {
+      position: relative;
+      width: 24px;
+      height: 11px;
+      background-color: #626262;
+      border-radius: 100%;
+      margin-left: auto;
+      margin-right: auto; }
     .cat-container .cat-head .cat-nose {
       position: relative;
-      border-top: 6px solid transparent;
-      border-bottom: 5px solid transparent;
-      border-left: 10px solid #F38A8A;
-      left: 23px;
-      bottom: 13px;
-      transform: rotate(-30deg); }
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 8px solid #F38A8A;
+      left: 24px;
+      bottom: 27px;
+      transform: rotate(-30deg);
+      z-index: 11; }
+    .cat-container .cat-head .cat-mouth-div {
+      position: relative;
+      width: 4px;
+      height: 10px;
+      background-color: #2F2E2E;
+      border-radius: 50% 50%;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 10;
+      bottom: 14px; }
     .cat-container .cat-head .cat-ear-lhs {
       display: inline-block;
       position: absolute;
@@ -98,15 +117,6 @@
     background-color: #4D4D4D;
     border-radius: 50% 50% 0 0;
     left: 12px;
-    bottom: 10px;
-    z-index: 100; }
-  .cat-container .cat-arm-rhs {
-    position: absolute;
-    width: 3px;
-    height: 50px;
-    background-color: #4D4D4D;
-    border-radius: 50% 50% 0 0;
-    left: 52px;
     bottom: 10px;
     z-index: 100; }
   .cat-container .cat-body {

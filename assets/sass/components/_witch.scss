@@ -17,14 +17,37 @@
     left: 6px;
     top: 6px;
 
+    .cat-mouth {
+      position: relative;
+      width: 24px;
+      height: 11px;
+      background-color: $grey-nose;
+      border-radius: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .cat-nose {
       position: relative;
-      border-top: 6px solid transparent;
-      border-bottom: 5px solid transparent;
-      border-left: 10px solid $red;
-      left: 23px;
-      bottom: 13px;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 8px solid $red;
+      left: 24px;
+      bottom: 27px;
       transform: rotate(-30deg);
+      z-index: 11;
+    }
+
+    .cat-mouth-div {
+      position: relative;
+      width: 4px;
+      height: 10px;
+      background-color: $grey-dark;
+      border-radius: 50% 50%;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 10;
+      bottom: 14px;
     }
 
     .cat-ear-lhs {
@@ -120,17 +143,17 @@
     bottom: 10px;
     z-index: 100;
   }
-
-  .cat-arm-rhs {
-    position: absolute;
-    width: 3px;
-    height: 50px;
-    background-color: $grey-highlight;
-    border-radius: 50% 50% 0 0;
-    left: 52px;
-    bottom: 10px;
-    z-index: 100;
-  }
+  //
+  // .cat-arm-rhs {
+  //   position: absolute;
+  //   width: 3px;
+  //   height: 50px;
+  //   background-color: $grey-highlight;
+  //   border-radius: 50% 50% 0 0;
+  //   left: 52px;
+  //   bottom: 10px;
+  //   z-index: 100;
+  // }
 
   .cat-body {
     position: relative;
